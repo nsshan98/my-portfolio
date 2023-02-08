@@ -12,7 +12,7 @@ const ProjectWork = () => {
             return (
               <ProjectCard
                 key={ind}
-                imgscr={val.projectimg}
+                projectimg={val.projectimg}
                 title={val.title}
                 text={val.text}
                 view={val.view}
