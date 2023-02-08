@@ -1,0 +1,53 @@
+.pricing {
+  width: 100%;
+  /* background-color: rgb(71, 65, 65); */
+}
+
+.card-container {
+  max-width: 1160px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  margin: auto;
+  grid-gap: 40px;
+  padding: 10px 0px;
+}
+.card-container .btn {
+  margin-top: 20px;
+  padding: 10px 50px;
+}
+
+.card {
+  border: 1px solid #fff;
+  padding: 50px 0px;
+  text-align: center;
+}
+
+.card:hover {
+  background-color: rgb(79, 78, 78);
+}
+
+.card h3 {
+  font-size: 30px;
+  margin-bottom: 10px;
+  color: aliceblue;
+}
+
+.amount {
+  color: #fff;
+  font-size: 25px;
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+.card p {
+  padding: 8px 0;
+}
+
+.bar {
+  border-bottom: 2px solid #fff;
+  width: 40px;
+  color: #fff;
+  display: block;
+  margin: auto;
+  padding: 5px 0;
+}

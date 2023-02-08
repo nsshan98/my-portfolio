@@ -1,0 +1,40 @@
+.projectimg {
+  width: 100%;
+  height: 70vh;
+  position: relative;
+}
+.projectimg::before {
+  content: "";
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background-color: black;
+  opacity: 0.5;
+  background: url("https://images.unsplash.com/photo-1618388810903-840bb0d15ea5?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80");
+  background-size: cover;
+  background-position: center top;
+  position: absolute;
+  z-index: -1;
+}
+
+.projectcontent {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.projectcontent h1 {
+  padding: 0.5rem 0 1.5rem;
+  font-size: 50px;
+  text-align: center;
+}
+
+.projectcontent p {
+  font-size: 30px;
+  font-weight: bold;
+  text-align: center;
+}

@@ -1,0 +1,46 @@
+.footer {
+  width: 100%;
+  padding: 0.5rem 0;
+  background-color: rgb(31, 30, 30);
+}
+
+.footer-container {
+  max-width: 1040px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 40px;
+}
+
+.left {
+  height: 100%;
+  max-width: 100%;
+  display: inline;
+  flex-direction: column;
+  margin-top: 20px;
+  margin-left: 50px;
+}
+
+.left p {
+  margin-left: 50px;
+  margin-top: -28px;
+  padding: 0.4rem;
+}
+
+.right {
+  height: 100%;
+  max-width: 100%;
+  display: inline;
+  flex-direction: column;
+  padding: 1rem;
+}
+
+.right h3 {
+  color: aliceblue;
+}
+
+.right p {
+  margin-top: 10px;
+}
+.social {
+  margin-top: 10px;
+}
